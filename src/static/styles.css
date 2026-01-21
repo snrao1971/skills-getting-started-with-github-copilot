@@ -94,8 +94,31 @@ section h3 {
 }
 
 .participants-list li {
-  margin-bottom: 4px;
-  list-style-type: disc;
+  margin-bottom: 8px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.participant-name {
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #ff5252;
 }
 
 .form-group {
